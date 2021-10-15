@@ -6,6 +6,6 @@ An optimized prompt tuning strategy for smaller models and hard natural language
 
 This repo is under construction (2-4 weeks expected). Your kindly starring our repo could encourage us to work harder :)
 
-![](img/example.png)
+![](example.png)
 
-![](img/P-tuning-v2.png)
+![](P-tuning-v2.png)
