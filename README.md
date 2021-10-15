@@ -4,8 +4,6 @@
 
 An optimized prompt tuning strategy for smaller models and hard natural language understanding (NLU) tasks (e.g., sequence tagging).
 
-This repo is under construction (2-4 weeks expected). Your kindly starring our repo could encourage us to work harder :)
-
-![](example.png)
+This repo is still under construction (2-4 weeks expected). Your kindly starring our repo could encourage us to work harder :)
 
 ![](P-tuning-v2.png)
