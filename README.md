@@ -2,7 +2,7 @@
 
 [P-Tuning v2: Prompt Tuning Can Be Comparable to Finetuning Universally Across Scales and Tasks](https://arxiv.org/abs/2110.07602)
 
-An optimized prompt tuning strategy achieving comparable performance to fine-tuning on small/medium-sized models and sequence tagging challenges.
+An optimized prompt tuning strategy achieving comparable performance to fine-tuning on small/medium-sized models and sequence tagging challenges. Find our previous version [P-tuning v1](https://github.com/THUDM/P-tuning) for knowledge probing and few-shot SuperGLUE. Your kindly starring our repo can greatly encourage us to work harder :)
 
 P-tuning v2 leverages **deep prompt tuning**, which is to apply continuous prompts for every layer input of the pretrained transformer. 
 Deep prompt tuning increases the capacity of continuous prompts and closes the gap to fine-tuning across various settings, especially for small models and hard tasks.
