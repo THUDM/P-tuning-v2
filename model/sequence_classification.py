@@ -278,11 +278,17 @@ class BertPromptForSequenceClassification(BertPreTrainedModel):
             # past_key_values=past_key_values,
         )
 
-        pooled_output = outputs[1]
+        # pooled_output = outputs[1]
+        sequence_output = outputs[0]
+        sequence_output = sequence_output[:, self.pre_seq_len:, :].contiguous()
+        first_token_tensor = sequence_output[:, 0]
+        pooled_output = self.bert.pooler.dense(first_token_tensor)
+        pooled_output = self.bert.pooler.activation(pooled_output)
 
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
-
+        print('yes')
+        exit()
         loss = None
         if labels is not None:
             if self.config.problem_type is None:
@@ -502,7 +508,12 @@ class RobertaPromptForSequenceClassification(RobertaPreTrainedModel):
             # past_key_values=past_key_values,
         )
 
-        pooled_output = outputs[1]
+        # pooled_output = outputs[1]
+        sequence_output = outputs[0]
+        sequence_output = sequence_output[:, self.pre_seq_len:, :].contiguous()
+        first_token_tensor = sequence_output[:, 0]
+        pooled_output = self.roberta.pooler.dense(first_token_tensor)
+        pooled_output = self.roberta.pooler.activation(pooled_output)
 
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
