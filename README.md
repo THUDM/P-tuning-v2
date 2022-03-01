@@ -1,6 +1,7 @@
 # P-tuning v2
 
-[P-Tuning v2: Prompt Tuning Can Be Comparable to Finetuning Universally Across Scales and Tasks](https://arxiv.org/abs/2110.07602)
+
+ACL 22: [P-Tuning v2: Prompt Tuning Can Be Comparable to Finetuning Universally Across Scales and Tasks](https://arxiv.org/abs/2110.07602)
 
 An optimized prompt tuning strategy achieving comparable performance to fine-tuning on small/medium-sized models and sequence tagging challenges. 
 
@@ -48,7 +49,7 @@ pip install -r requirements.txt
 ### Data
 For SuperGLUE and SQuAD datasets, we download them from the Huggingface Datasets APIs (embedded in our codes).
 
-For sequence tagging (NER, SRL) datasets, we prepare a non-official packup [here](https://zenodo.org/record/5720269/files/P-tuning-v2_data.tar.gz?download=1). 
+For sequence tagging (NER, SRL) datasets, we prepare a non-official packup [here](https://zenodo.org/record/6318701/files/P-tuning-v2_data.tar.gz?download=1). 
 After downloading, unzip the packup to the project root.
 Please use at your own risk.
 
