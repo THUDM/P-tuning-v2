@@ -15,6 +15,9 @@ Deep prompt tuning increases the capacity of continuous prompts and closes the g
 
 Thanks [@rainatam](https://github.com/rainatam)'s joint effort in re-organizing codes for publishing!
 
+## Commonly Asked Question
+1. Some readers notice a **'mismatch'** in SuperGLUE between P-tuning (v1) and P-tuning v2: This is because in P-tuning's SuperGLUE experiment, for fair comparison to PET, we follow its experimental setting where backbone pre-trained model parameters are jointly tuned with continuous prompt embeddings; while in P-tuning v2, we follow Prefix tuning and Lester et al.'s parameter-efficient setting where backbone pre-trained model parameters are frozen.
+
 ## Reproduce Tips
 Since experiments reported in our paper are all conducted on NVIDIA DGX-A100 servers (which might be difficult to acquire), 
 we reimplement P-tuning v2's results on BERT-large/RoBERTa-large with:
