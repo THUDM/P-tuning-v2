@@ -1,8 +1,9 @@
 # P-tuning v2
 
 
-Source codes and data for ACL 2022 Paper
-"[P-Tuning v2: Prompt Tuning Can Be Comparable to Finetuning Universally Across Scales and Tasks](https://arxiv.org/abs/2110.07602)"
+Source codes and data for
+* [P-Tuning v2: Prompt Tuning Can Be Comparable to Finetuning Universally Across Scales and Tasks (ACL 2022)](https://arxiv.org/abs/2110.07602)
+* Parameter-Efficient Prompt Tuning Makes Generalized and Calibrated Neural Text Retrievers (Arxiv 2022.7)
 
 An optimized prompt tuning strategy achieving comparable performance to fine-tuning on small/medium-sized models and sequence tagging challenges. 
 

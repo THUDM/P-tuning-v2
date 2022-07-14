@@ -1,0 +1,9 @@
+checkpoints/
+encoded_files/
+.cache/
+beir_eval/datasets/
+beir_eval/preprocessed_data/
+mlruns/
+results/
+data/
+!dpr/data/

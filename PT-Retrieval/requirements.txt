@@ -1,0 +1,16 @@
+beir==1.0.0
+GitPython==3.1.27
+matplotlib==3.5.2
+mlflow==1.23.0
+numpy==1.22.3
+packaging==21.3
+regex==2021.8.21
+scikit_learn==1.1.1
+scipy==1.8.1
+setuptools==61.2.0
+spacy==3.3.1
+torch==1.12.0
+tqdm==4.64.0
+transformers==4.20.1
+ujson==5.4.0
+wget==3.2
