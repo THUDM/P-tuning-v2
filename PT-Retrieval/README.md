@@ -178,4 +178,30 @@ bash eval_scripts/calibration_on_beir.sh $dataset
 
 
 ## Citation
-TODO
+If you find this paper and repo useful, please consider citing us in your work
+
+```
+@article{WLTam2022PT-Retrieval,
+  author    = {Weng Lam Tam and
+               Xiao Liu and
+               Kaixuan Ji and
+               Lilong Xue and
+               Xingjian Zhang and
+               Yuxiao Dong and
+               Jiahua Liu and
+               Maodi Hu and
+               Jie Tang},
+  title     = {Parameter-Efficient Prompt Tuning Makes Generalized and Calibrated
+               Neural Text Retrievers},
+  journal   = {CoRR},
+  volume    = {abs/2207.07087},
+  year      = {2022},
+  url       = {https://doi.org/10.48550/arXiv.2207.07087},
+  doi       = {10.48550/arXiv.2207.07087},
+  eprinttype = {arXiv},
+  eprint    = {2207.07087},
+  timestamp = {Tue, 19 Jul 2022 17:45:18 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2207-07087.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
