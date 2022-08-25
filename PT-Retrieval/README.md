@@ -101,8 +101,8 @@ Change `--model_file ./checkpoints/$filename/$checkpoint` in each evaluation scr
 
 | Checkpoints | DPR                                                          | ColBERT                                                      |
 | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| P-tuning v2 | [Download](https://drive.google.com/file/d/1jVVndoHScqMMcJOBcJi2lVQvIhKAwaGN/view?usp=sharing) | [Download](https://dl.fbaipublicfiles.com/dpr/checkpoint/retriver/multiset/hf_bert_base.cp) |
-| Fine-tune   | [Download](https://drive.google.com/file/d/1JZYmRKoobs4vfaIXsEX_DNkluKmXxmzD/view?usp=sharing) | [Download](https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/models/ColBERT/msmarco.psg.l2.zip) |
+| P-tuning v2 | [Download](https://drive.google.com/file/d/1jVVndoHScqMMcJOBcJi2lVQvIhKAwaGN/view?usp=sharing) | [Download](https://drive.google.com/file/d/1JZYmRKoobs4vfaIXsEX_DNkluKmXxmzD/view?usp=sharing) |
+| Fine-tune   | [Download](https://dl.fbaipublicfiles.com/dpr/checkpoint/retriver/multiset/hf_bert_base.cp) | [Download](https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/models/ColBERT/msmarco.psg.l2.zip) |
 
 
 
