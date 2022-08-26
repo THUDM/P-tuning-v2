@@ -3,7 +3,7 @@
 Parameter-efficient learning can boost cross-domain and cross-topic generalization and calibration. [[Paper]](https://arxiv.org/pdf/2207.07087.pdf)
 
 <p align="center">
-  <img src="https://github.com/THUDM/P-Tuning-v2-dev/blob/dpr/PT-Retrieval/figures/PT-Retrieval.png?raw=true" alt="PT-Retrieval"/>
+  <img src="https://github.com/THUDM/P-Tuning-v2/blob/main/PT-Retrieval/figures/PT-Retrieval.png?raw=true" alt="PT-Retrieval"/>
 </p>
 
 ## Setup
