@@ -9,6 +9,8 @@ An optimized prompt tuning strategy achieving comparable performance to fine-tun
 
 Find our previous version [P-tuning v1](https://github.com/THUDM/P-tuning) for knowledge probing and few-shot SuperGLUE. Your kindly starring our repo can greatly encourage us to work harder :)
 
+You may be also interested in our recent work [GLM-130B: An Open Bilingual Pre-trained Model (2022-10-06)](https://arxiv.org/abs/2210.02414). It is an open-sourced LLM outperforming GPT-3 175B over various benchmarks. Get model weights, do inference and P-Tuning v2 with only **4 * RTX 3090 or 8 * RTX 2080 Ti** [FOR FREE](https://github.com/THUDM/GLM-130B)!
+
 P-tuning v2 leverages **deep prompt tuning**, which is to apply continuous prompts for every layer input of the pretrained transformer. 
 Deep prompt tuning increases the capacity of continuous prompts and closes the gap to fine-tuning across various settings, especially for small models and hard tasks.
 
