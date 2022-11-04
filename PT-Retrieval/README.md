@@ -177,6 +177,21 @@ bash eval_scripts/calibration_on_beir.sh $dataset
 
 
 
+## OAGQA Batch Evaluation
+
+For convenience, automatic evaluation scripts for each domain and topic in OAG-QA dataset are offered. Please check the folder `oagqa_eval_scripts`:
+
+```shell
+bash batch_evaluate_ptv2_dpr_on_oagqa.sh
+bash batch_evaluate_ptv2_colbert_on_oagqa.sh
+bash batch_evaluate_ft_dpr_on_oagqa.sh
+bash batch_evaluate_ft_colbert_on_oagqa.sh
+```
+
+The evaluation results will be stored at the folder `results`
+
+
+
 ## Citation
 If you find this paper and repo useful, please consider citing us in your work
 
@@ -205,3 +220,4 @@ If you find this paper and repo useful, please consider citing us in your work
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
+

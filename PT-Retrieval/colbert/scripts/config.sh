@@ -8,7 +8,7 @@ export checkpoint=ptv2.colbert.msmarco.cosine.1e-3.64
 
 export DATA_DIR=../beir_eval/datasets/$dataset/
 
-export CHECKPOINT=./checkpoints/$checkpoint/colbert-${step}0000.dnn
+export CHECKPOINT=../checkpoints/$checkpoint/colbert-${step}0000.dnn
 
 # Path where preprocessed collection and queries are present
 export COLLECTION="../beir_eval/preprocessed_data/${dataset}/collection.tsv"

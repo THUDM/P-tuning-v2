@@ -16,6 +16,7 @@ def main():
     parser = Arguments(description='Precomputing document representations with ColBERT.')
 
     parser.add_model_parameters()
+    parser.add_tuning_parameters()
     parser.add_model_inference_parameters()
     parser.add_indexing_input()
 

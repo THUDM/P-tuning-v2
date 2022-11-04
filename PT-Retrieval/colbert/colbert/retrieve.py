@@ -16,6 +16,7 @@ def main():
     parser = Arguments(description='End-to-end retrieval and ranking with ColBERT.')
 
     parser.add_model_parameters()
+    parser.add_tuning_parameters()
     parser.add_model_inference_parameters()
     parser.add_ranking_input()
     parser.add_retrieval_input()

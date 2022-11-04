@@ -15,6 +15,7 @@ def main():
     parser = Arguments(description='Re-ranking over a ColBERT index')
 
     parser.add_model_parameters()
+    parser.add_tuning_parameters()
     parser.add_model_inference_parameters()
     parser.add_reranking_input()
     parser.add_index_use_input()

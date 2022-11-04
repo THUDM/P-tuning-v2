@@ -20,11 +20,13 @@ class Arguments():
 
         self.add_argument('--local_rank', dest='rank', default=-1, type=int)
 
+        self.add_argument("--scheduler", action="store_true")
+
+    def add_tuning_parameters(self):
         self.add_argument("--prefix", action="store_true", help="use p-tuning v2")
         self.add_argument("--pre_seq_len", type=int, default=100, help="the length of prefix used in p-tuning v2")
         self.add_argument("--prefix_hidden_size", type=int, default=512)
         self.add_argument("--prefix_mlp", action="store_true")
-        self.add_argument("--scheduler", action="store_true")
 
     def add_model_parameters(self):
         # Core Arguments

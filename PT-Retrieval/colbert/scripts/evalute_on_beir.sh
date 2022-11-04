@@ -2,6 +2,10 @@ source scripts/config.sh
 
 MASTER_PORT=$(shuf -n 1 -i 10000-65535)
 
+mkdir -p output/rankings
+mkdir -p $OUTPUT_DIR
+mkdir -p $INDEX_ROOT
+
 ################################################################
 # 0. BEIR Data Formatting: Format BEIR data useful for ColBERT #
 ################################################################ 

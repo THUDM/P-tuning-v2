@@ -14,6 +14,7 @@ def main():
     parser = Arguments(description='Training ColBERT with <query, positive passage, negative passage> triples.')
 
     parser.add_model_parameters()
+    parser.add_tuning_parameters()
     parser.add_model_training_parameters()
     parser.add_training_input()
 
