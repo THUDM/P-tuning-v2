@@ -9,7 +9,7 @@ psl=128
 epoch=45
 
 python3 run.py \
-  --model_name_or_path roberta-large \
+  --model_name_or_path bert-large-uncased \
   --task_name $TASK_NAME \
   --dataset_name $DATASET_NAME \
   --do_train \
